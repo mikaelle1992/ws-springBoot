@@ -1,8 +1,8 @@
-import NavBar from '../../components/Navbar';
-import Footer from '../../components/Footer';
-import DataTable from '../../components/DataTable';
-import BarChart from '../../components/BarChart';
-import DonutChart from '../../components/DonutChart';
+import NavBar from 'components/Navbar';
+import Footer from 'components/Footer';
+import DataTable from 'components/DataTable';
+import BarChart from 'components/BarChart';
+import DonutChart from 'components/DonutChart';
 
 const  Dashboard = () => {
     return (
@@ -16,7 +16,7 @@ const  Dashboard = () => {
           <div className="row px-3">
             <div className="col-sm-6">
               <h5 className="text-center text-secondary"> Taxa de Sucesso</h5>
-              <BarChart />
+             <BarChart />
             </div>
   
             <div className="col-sm-6">
