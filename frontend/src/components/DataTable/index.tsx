@@ -19,7 +19,7 @@ const DataTable = () => {
                 totalPages:0
      });
         useEffect(()=>{
-            axios.get(`${BASE_URL}/sales?page=${activePage}&size=25`)
+            axios.get(`${BASE_URL}/sales?page=${activePage}&size=20`)
             .then(response => {setPage(response.data)
             });
         },[activePage]);
